@@ -1,2 +1,2 @@
 ## Css-Taks
-https://nagarjun-avala.github.io/css-taks/
+[Css Tasks hosted](https://nagarjun-avala.github.io/css-taks/)
