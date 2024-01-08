@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Calculator</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
+        .container {
+            padding: 0;
+            font-family: 'Orbitron', sans-serif;
+        }
+
+        .calc {
+            width: 425px;
+            height: 600px;
+            margin: auto;
+            margin-top: 100px;
+            padding: 20.5px;
+            background: #fff;
+            border: rgb(118, 118, 118) solid 1px;
+            border-radius: 10px;
+        }
+
+        .display {
+            background: #3c3c3c;
+            width: 100%;
+            height: 30%;
+            border-radius:10px 10px 0 0;
+            color: #fff;
+            display: flex;
+            align-items: end;
+            justify-content: end;
+            padding: 10px;
+            font-size: 45px;
+        }
+
+        .buttons {
+            background: #313131;
+            height: 70%;
+            padding: 10px;
+            border-radius: 0 0 10px 10px;
+        }
+        .row{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            width: 100%;
+            height: 20%;
+        }
+        .col{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bolder;
+            color: #000;
+            border: 1px solid #000;
+            background: yellow;
+            border-radius: 50%;
+            height: 50px;
+            width: 50px;
+            font-size: 20px;
+            cursor: pointer;
+            transition: all 300ms ease-in-out;
+        }
+        .col:hover{
+            font-size: 1.2rem;
+            background: rgb(255, 255, 0,0.8);
+            border: 2px solid #000;
+            color: #fff;
+            box-shadow: 0 0 10px yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <ul style="padding-left: 50px;margin-bottom: 20px;">
+            <li><a href="./index.html">&#8592; Home</a></li>
+        </ul>
+        <div class="calc">
+            <div class="display">0</div>
+            <div class="buttons">
+                <div class="row">
+                    <div class="col">C</div>
+                    <div class="col">AC</div>
+                    <div class="col">%</div>
+                    <div class="col">+</div>
+                </div>
+                <div class="row">
+                    <div class="col">1</div>
+                    <div class="col">2</div>
+                    <div class="col">3</div>
+                    <div class="col">-</div>
+                </div>
+                <div class="row">
+                    <div class="col">4</div>
+                    <div class="col">5</div>
+                    <div class="col">6</div>
+                    <div class="col">*</div>
+                </div>
+                <div class="row">
+                    <div class="col">7</div>
+                    <div class="col">8</div>
+                    <div class="col">9</div>
+                    <div class="col">/</div>
+                </div>
+                <div class="row">
+                    <div class="col">00</div>
+                    <div class="col">0</div>
+                    <div class="col">•</div>
+                    <div class="col">=</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
